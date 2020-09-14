@@ -3,28 +3,98 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACxgpIhUxVG0VNFhHAAAAAAAAAAAAAAAAFDBS/xxBav8cQWr/HEFq/xxBaf8bQGj/GT1k/yhDaP85W4X/O16J/zteif8oTHb/HUJr/xtAaP8aP2f/Ei1P/SFEbf8jR3H/I0hx/yJHcP8gRW7/HkNs/x1Ca//BwsT/rbK3/xk9Zf82Vn//O16J/zFVf/8gRW7/HEFp/xk+Zf8nRm3/M1aB/zZZhP82WYT/M1eB/8jHyP/q6uv/6urr/+rq6//q6uv/t7a3/xc5X/86XYf/NViD/yFGb/8ZPGL/AAAAADRTfP87XYj/O16J/zteif87Xon/O16J/zldh/8uUnz/JUpz/x9Ebf8cQWr/Gj9n/zhahP8tT3j/AAAAAAAAAAAAAAAAHD9n/x5DbP/m5eX//////9jW1v84WoT/O16J/8jKzv//////6Ofn/x1Ca/8bP2j/AAAAAAAAAAAAAAAAAAAAAC1Re/8uUnz/+/v7/xEREP/7+/v/HUJr/xk6X//7+/v/EREQ//v7+/8oTHb/H0Rt/wAAAAAAAAAAAAAAAAAAAAAwTnb/O16J/5eXlv8RERD/9PT0/y5SfP8jR3H/9PT0/xEREP8eHh3/OVyH/yREav8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo6Oj/6urq/9fW1v87Xon/O16J/9XU1P/r6+v/6urq/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEVu/x1Ca/8cQWr/GDph/zFPdv87Xon/NFiC/yNIcf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADNWgf8rT3n/I0dx/x1Ca/8bQGn/FTRY/zpdiP8vTXX/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOlyG/zlch/8pTXf/HkNs/xxBaf8VMVVcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7Xon/O16J/y1Re/8fRG3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO16J/zteif87Xon/JEJo/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADNRef87Xon/KkRp5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsR21jAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAIABAADAAwAAwAMAAMADAADwDwAA8A8AAPAPAAD4PwAA/D8AAPw/AAD8fwAA//8AAA=="
+			rel="icon"
+			type="image/x-icon"
+		/>
 		<title>UDO</title>
 		<style>
+			*,
+			*::before,
+			*::after {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
 			body {
-				background: rgb(63, 0, 0);
-				color: rgb(136, 19, 19);
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				width: 100vw;
-				height: 100vh;
-				overflow-x: hidden;
+				background: #fafafa;
 			}
 
 			h1 {
-				font-size: 25vh;
+				color: #d4e021;
+				font-size: 100px;
 				font-family: sans-serif;
 				text-align: center;
-				text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+				text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+			}
+
+			body > ul {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				width: fit-content;
+				width: -moz-fit-content;
+				margin: 0 auto;
+			}
+
+			li > ul > li {
+				text-indent: 30px;
+			}
+
+			li {
+				list-style: none;
+				margin: 5px 0;
+			}
+
+			a {
+				text-decoration: none;
+				color: blue;
+			}
+
+			a:visited {
+				color: purple;
+			}
+			p {
+				text-align: center;
+				margin-top: 50px;
 			}
 		</style>
 	</head>
 	<body>
-		<h1>TAGAL MAG UDO</h1>
+		<h1>FILES MO TO</h1>
+		<ul>
+			<li>
+				<a href="./files/C.R. Wylie Jr., Louis C. Barrett - Advanced Engineering Mathematics, 5th Edition -McGraw-Hill (1982).pdf" download>
+					Advanced Engineering Mathematics (5<sup>th</sup> Ed) by Wylie and Barrett
+				</a>
+			</li>
+			<li>
+				<a href="./files/Phillip Edward Bedient, Earl David Rainville - Elementary Differential Equations, 6th Edition -Macmillan (1981).pdf" download>
+					Elementary Differential Equations (6<sup>th</sup> Ed) bt Rainville and Bedient
+				</a>
+				<ul>
+					<li>
+						<a href="./files/Earl D. Rainville, Phillip E. Bedient, Richard E. Bedient - Elementary Differential Equations, Student Solutions Manual, 8th Edition -Prentice Hall (1997).pdf" download>
+							Solution Manual
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="./files/Erwin Kreyszig, In collaboration with Herbert Kreyszig and Edward J. Norminton - Advanced Engineering Mathematics, 10th Edition  -Wiley (2011).pdf" download>
+					Advanced Engineering Mathematics (10<sup>th</sup> Ed) by Kreyszig
+				</a>
+				<ul>
+					<li>
+						<a href="./files/Herbert Kreyszig, Erwin Kreyszig - Student Solutions Manual and Study Guide to Advanced Engineering Mathematics[Volume 1]-Wiley (2012).pdf" download>Solution Manual 1</a>
+					</li>
+					<li>
+						<a href="./files/Herbert Kreyszig, Erwin Kreyszig - Student Solutions Manual and Study Guide to Advanced Engineering Mathematics[Volume 2]-Wiley (2012).pdf" download> Solution Manual 2</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<p>For more books, go to <a href="http://gen.lib.rus.ec/" target="_blank">Library Genesis</a></p>
 	</body>
 </html>
